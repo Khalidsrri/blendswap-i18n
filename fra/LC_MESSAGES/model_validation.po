@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-12-11 17:17-0600\n"
-"PO-Revision-Date: 2013-12-13 16:05+0100\n"
+"POT-Creation-Date: 2014-02-17 10:44-0600\n"
+"PO-Revision-Date: 2014-02-24 11:55+0100\n"
 "Last-Translator: Pyrophorus <l.sebilleauATfree.fr>\n"
 "Language-Team: Blend Swap Translators\n"
 "Language: French\n"
@@ -73,7 +73,7 @@ msgstr "Les tags (mots-clefs) facilitent la recherche des blends. Veuillez utili
 
 #: Model/Blend.php:validation
 #: for field tags
-msgid "Those are not tags, write valid, comma separated tags!"
+msgid "Those are not tags, enter two or more tags separated by commas."
 msgstr "Ces tags sont invalides, une virgule doit séparer les tags !"
 
 #: Model/Blend.php:validation
@@ -94,8 +94,7 @@ msgid "Please tell us what you changed in the data or the files."
 msgstr "Merci de nous signaler ce qui a été modifié parmi les données ou les fichiers."
 
 #: Model/Blend.php:validation
-#: for field hello Model/Message.php:validation
-#: Model/Profile.php:validation
+#: for field hello Model/Profile.php:validation
 #: Model/Report.php:validation
 #: Model/Request.php:validation
 #: Model/User.php:validation
@@ -200,8 +199,8 @@ msgstr "Cela ne ressemble pas à une URL"
 
 #: Model/Profile.php:validation
 #: for field description
-msgid "The bio must be between 24 and 1024 characters long"
-msgstr "La biographie doit avoir entre 24 et 1024 caractères de long !"
+msgid "The bio must be between 24 and 512 characters long"
+msgstr "La biographie doit avoir entre 24 et 512 caractères de long !"
 
 #: Model/Question.php:validation
 #: for field body
@@ -323,8 +322,8 @@ msgstr "Cet email est inutilisable car le serveur associé n'accepte pas les ema
 
 #: Model/User.php:validation
 #: for field password
-msgid "Must be between 8 and 128 characters long"
-msgstr "Doit faire entre 8 et 128 caractères de long"
+msgid "Must be between 8 and 1024 characters long"
+msgstr "Doit faire entre 8 et 1024 caractères de long"
 
 #: Model/User.php:validation
 #: for field first_name;validation last_name

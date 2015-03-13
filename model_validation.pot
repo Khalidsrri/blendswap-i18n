@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-02-17 10:44-0600\n"
+"POT-Creation-Date: 2015-02-24 19:14-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -20,6 +20,16 @@ msgstr ""
 
 #: Model/Blend.php:validation for field title
 msgid "The Blend Name must be between 2 and 140 chars long!"
+msgstr ""
+
+#: Model/Blend.php:validation for field title;validation for field body;validation for field three_dee;validation for field tags
+#: Model/Collection.php:validation for field name;validation for field description
+#: Model/Comment.php:validation for field body
+#: Model/Profile.php:validation for field description
+#: Model/Question.php:validation for field body;validation for field title;validation for field tags
+#: Model/Request.php:validation for field title;validation for field body
+#: Model/User.php:validation for field username;validation for field bio;validation for field first_name;validation for field last_name
+msgid "This field contains an email, please remove it and try again"
 msgstr ""
 
 #: Model/Blend.php:validation for field body
@@ -55,7 +65,7 @@ msgid "Invalid value type for Blender version"
 msgstr ""
 
 #: Model/Blend.php:validation for field tags
-msgid "Tags help others find your blend. Use at least one tag and don't forget the commas!"
+msgid "Use at least two tags and don't forget the commas!"
 msgstr ""
 
 #: Model/Blend.php:validation for field tags
@@ -75,17 +85,15 @@ msgstr ""
 msgid "Please tell us what you changed in the data or the files."
 msgstr ""
 
-#: Model/Blend.php:validation for field hello
-#: Model/Profile.php:validation for field hello
-#: Model/Report.php:validation for field hello
-#: Model/Request.php:validation for field hello
-#: Model/User.php:validation for field hello
-msgid "empty"
-msgstr ""
-
-#: Model/Blend.php:validation for field fan_art
+#: Model/Blend.php:validation for field is_fan_art
 #: Model/Report.php:validation for field reason
 msgid "You must choose an option."
+msgstr ""
+
+#: Model/Blend.php:validation for field status
+#: Model/News.php:validation for field status
+#: Model/Sub.php:validation for field status
+msgid "Invalid status"
 msgstr ""
 
 #: Model/Collection.php:validation for field name
@@ -104,9 +112,12 @@ msgstr ""
 msgid "The comment cannot be empty!"
 msgstr ""
 
+#: Model/Comment.php:validation for field body
+msgid "The comment must be between 2 and 2048 characters long."
+msgstr ""
+
 #: Model/Comment.php:validation for field user_id;validation for field parent_id;validation for field object_id
-#: Model/Revision.php:validation for field user_id;validation for field object_id
-msgid "numeric"
+msgid "Invalid ID value"
 msgstr ""
 
 #: Model/Contact.php:validation for field name;validation for field email;validation for field body
@@ -133,6 +144,15 @@ msgstr ""
 msgid "This is not a url"
 msgstr ""
 
+#: Model/Conversation.php:validation for field user_id;validation for field to_user_id
+#: Model/Report.php:validation for field user_id
+msgid "Invalid user id"
+msgstr ""
+
+#: Model/Conversation.php:validation for field status
+msgid "Wrong value for conversation status"
+msgstr ""
+
 #: Model/Email.php:validation for field name
 msgid "this email must have a name"
 msgstr ""
@@ -145,20 +165,51 @@ msgstr ""
 msgid "Only letters and underscores are allowed"
 msgstr ""
 
+#: Model/Event.php:validation for field object_class
+#: Model/Media.php:validation for field object_class
+msgid "Invalid object class"
+msgstr ""
+
+#: Model/Event.php:validation for field object_name;validation for field body
+#: Model/Revision.php:validation for field user_id;validation for field object_id;validation for field object_class;validation for field object_data;validation for field log
+#: Model/Term.php:validation for field slug
+msgid "notEmpty"
+msgstr ""
+
+#: Model/Follow.php:validation for field object_class;validation for field status
+msgid "Invalid object_class value"
+msgstr ""
+
+#: Model/Media.php:validation for field status
+msgid "Invalid status string"
+msgstr ""
+
 #: Model/Message.php:validation for field body
 msgid "Empty messages are not allowed."
+msgstr ""
+
+#: Model/Message.php:validation for field body
+msgid "Your message must be between 2 and 2048 characters"
 msgstr ""
 
 #: Model/Message.php:validation for field status
 msgid "allowedStatuses"
 msgstr ""
 
+#: Model/News.php:validation for field title
+msgid "Title must be between 2 and 256 characters long"
+msgstr ""
+
 #: Model/Profile.php:validation for field website;validation for field deviantart;validation for field bartists;validation for field flickr;validation for field facebook;validation for field youtube;validation for field vimeo;validation for field twitter;validation for field github;validation for field pinterest;validation for field behance;validation for field linkedin
 msgid "This does not look like an URL"
 msgstr ""
 
+#: Model/Profile.php:validation for field hello
+msgid "empty"
+msgstr ""
+
 #: Model/Profile.php:validation for field description
-msgid "The bio must be between 24 and 512 characters long"
+msgid "The bio must be between 2 and 512 characters long"
 msgstr ""
 
 #: Model/Question.php:validation for field body
@@ -181,12 +232,24 @@ msgstr ""
 msgid "Tags help other users to find your question. You must use at least one tag."
 msgstr ""
 
+#: Model/Question.php:validation for field status
+msgid "Invalid status."
+msgstr ""
+
 #: Model/Report.php:validation for field reason
 msgid "The reason contains invalid characters"
 msgstr ""
 
 #: Model/Report.php:validation for field body
 msgid "You must provide links and/or notes for us to be able to take care of your report"
+msgstr ""
+
+#: Model/Report.php:validation for field object_class
+msgid "This object cannot be reported"
+msgstr ""
+
+#: Model/Report.php:validation for field object_id
+msgid "Invalid object id"
 msgstr ""
 
 #: Model/Request.php:validation for field title
@@ -197,9 +260,8 @@ msgstr ""
 msgid "You must provide notes and details about the request."
 msgstr ""
 
-#: Model/Revision.php:validation for field user_id;validation for field object_id;validation for field object_class;validation for field object_data;validation for field log
-#: Model/Term.php:validation for field slug
-msgid "notEmpty"
+#: Model/Revision.php:validation for field user_id;validation for field object_id
+msgid "numeric"
 msgstr ""
 
 #: Model/Revision.php:validation for field object_class
@@ -268,5 +330,9 @@ msgstr ""
 
 #: Model/User.php:validation for field bpp
 msgid "Invalid value type"
+msgstr ""
+
+#: Model/Vote.php:validation for field vote
+msgid "Invalid vote value"
 msgstr ""
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-02-17 10:44-0600\n"
+"POT-Creation-Date: 2015-02-24 19:14-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,184 +14,184 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: View/Layouts/default.ctp:19
-#: View/Layouts/error.ctp:19
+#: View/Layouts/default.ctp:18
+#: View/Layouts/error.ctp:18
 msgid "CakePHP: the rapid development php framework"
 msgstr ""
 
-#: View/Pages/_home.ctp:26
+#: View/Pages/_home.ctp:25
 msgid "Release Notes for CakePHP %s."
 msgstr ""
 
-#: View/Pages/_home.ctp:27
+#: View/Pages/_home.ctp:26
 msgid "Read the changelog"
 msgstr ""
 
-#: View/Pages/_home.ctp:34
+#: View/Pages/_home.ctp:32
 msgid "URL rewriting is not properly configured on your server."
 msgstr ""
 
-#: View/Pages/_home.ctp:42
+#: View/Pages/_home.ctp:39
 msgid "Your version of PHP is 5.2.8 or higher."
 msgstr ""
 
-#: View/Pages/_home.ctp:46
+#: View/Pages/_home.ctp:43
 msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
 msgstr ""
 
-#: View/Pages/_home.ctp:55
+#: View/Pages/_home.ctp:51
 msgid "Your tmp directory is writable."
 msgstr ""
 
-#: View/Pages/_home.ctp:59
+#: View/Pages/_home.ctp:55
 msgid "Your tmp directory is NOT writable."
 msgstr ""
 
-#: View/Pages/_home.ctp:69
+#: View/Pages/_home.ctp:64
 msgid "The %s is being used for core caching. To change the config edit APP/Config/core.php "
 msgstr ""
 
-#: View/Pages/_home.ctp:73
+#: View/Pages/_home.ctp:68
 msgid "Your cache is NOT working. Please check the settings in APP/Config/core.php"
 msgstr ""
 
-#: View/Pages/_home.ctp:83
+#: View/Pages/_home.ctp:77
 msgid "Your database configuration file is present."
 msgstr ""
 
-#: View/Pages/_home.ctp:88
+#: View/Pages/_home.ctp:82
 msgid "Your database configuration file is NOT present."
 msgstr ""
 
-#: View/Pages/_home.ctp:90
+#: View/Pages/_home.ctp:84
 msgid "Rename APP/Config/database.php.default to APP/Config/database.php"
 msgstr ""
 
-#: View/Pages/_home.ctp:108
+#: View/Pages/_home.ctp:100
 msgid "Cake is able to connect to the database."
 msgstr ""
 
-#: View/Pages/_home.ctp:112
+#: View/Pages/_home.ctp:104
 msgid "Cake is NOT able to connect to the database."
 msgstr ""
 
-#: View/Pages/_home.ctp:124
+#: View/Pages/_home.ctp:115
 msgid "PCRE has not been compiled with Unicode support."
 msgstr ""
 
-#: View/Pages/_home.ctp:126
+#: View/Pages/_home.ctp:117
 msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
 msgstr ""
 
-#: View/Pages/_home.ctp:130
+#: View/Pages/_home.ctp:121
 msgid "Editing this Page"
 msgstr ""
 
-#: View/Pages/_home.ctp:133
+#: View/Pages/_home.ctp:123
 msgid "To change the content of this page, create: APP/View/Pages/home.ctp.<br />\nTo change its layout, create: APP/View/Layouts/default.ctp.<br />\nYou can also add some CSS styles for your pages at: APP/webroot/css."
 msgstr ""
 
-#: View/Pages/_home.ctp:139
+#: View/Pages/_home.ctp:129
 msgid "Getting Started"
 msgstr ""
 
-#: View/Pages/_home.ctp:143
+#: View/Pages/_home.ctp:132
 msgid "New"
 msgstr ""
 
-#: View/Pages/_home.ctp:143
+#: View/Pages/_home.ctp:132
 msgid "CakePHP 2.0 Docs"
 msgstr ""
 
-#: View/Pages/_home.ctp:152
+#: View/Pages/_home.ctp:140
 msgid "The 15 min Blog Tutorial"
 msgstr ""
 
-#: View/Pages/_home.ctp:159
+#: View/Pages/_home.ctp:147
 msgid "More about Cake"
 msgstr ""
 
-#: View/Pages/_home.ctp:161
+#: View/Pages/_home.ctp:149
 msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
 msgstr ""
 
-#: View/Pages/_home.ctp:164
+#: View/Pages/_home.ctp:152
 msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
 msgstr ""
 
-#: View/Pages/_home.ctp:168
+#: View/Pages/_home.ctp:156
 msgid "Cake Software Foundation"
 msgstr ""
 
-#: View/Pages/_home.ctp:169
+#: View/Pages/_home.ctp:157
 msgid "Promoting development related to CakePHP"
 msgstr ""
 
-#: View/Pages/_home.ctp:170
+#: View/Pages/_home.ctp:158
 msgid "CakePHP"
 msgstr ""
 
-#: View/Pages/_home.ctp:171
+#: View/Pages/_home.ctp:159
 msgid "The Rapid Development Framework"
 msgstr ""
 
-#: View/Pages/_home.ctp:172
+#: View/Pages/_home.ctp:160
 msgid "CakePHP Documentation"
 msgstr ""
 
-#: View/Pages/_home.ctp:173
+#: View/Pages/_home.ctp:161
 msgid "Your Rapid Development Cookbook"
 msgstr ""
 
-#: View/Pages/_home.ctp:174
+#: View/Pages/_home.ctp:162
 msgid "CakePHP API"
 msgstr ""
 
-#: View/Pages/_home.ctp:175
+#: View/Pages/_home.ctp:163
 msgid "Quick Reference"
 msgstr ""
 
-#: View/Pages/_home.ctp:176
+#: View/Pages/_home.ctp:164
 msgid "The Bakery"
 msgstr ""
 
-#: View/Pages/_home.ctp:177
+#: View/Pages/_home.ctp:165
 msgid "Everything CakePHP"
 msgstr ""
 
-#: View/Pages/_home.ctp:178
+#: View/Pages/_home.ctp:166
 msgid "The Show"
 msgstr ""
 
-#: View/Pages/_home.ctp:179
+#: View/Pages/_home.ctp:167
 msgid "The Show is a live and archived internet radio broadcast CakePHP-related topics and answer questions live via IRC, Skype, and telephone."
 msgstr ""
 
-#: View/Pages/_home.ctp:180
+#: View/Pages/_home.ctp:168
 msgid "CakePHP Google Group"
 msgstr ""
 
-#: View/Pages/_home.ctp:181
+#: View/Pages/_home.ctp:169
 msgid "Community mailing list"
 msgstr ""
 
-#: View/Pages/_home.ctp:183
+#: View/Pages/_home.ctp:171
 msgid "Live chat about CakePHP"
 msgstr ""
 
-#: View/Pages/_home.ctp:184
+#: View/Pages/_home.ctp:172
 msgid "CakePHP Code"
 msgstr ""
 
-#: View/Pages/_home.ctp:185
+#: View/Pages/_home.ctp:173
 msgid "For the Development of CakePHP Git repository, Downloads"
 msgstr ""
 
-#: View/Pages/_home.ctp:186
+#: View/Pages/_home.ctp:174
 msgid "CakePHP Lighthouse"
 msgstr ""
 
-#: View/Pages/_home.ctp:187
+#: View/Pages/_home.ctp:175
 msgid "CakePHP Tickets, Wiki pages, Roadmap"
 msgstr ""
 
