@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-02-03 12:59+0200\n"
+"PO-Revision-Date: 2015-08-01 11:54+0200\n"
 "Last-Translator: khalidsrri <khalidsrri@gmail.com>\n"
 "Language-Team: Blend Swap Translators <khalidsrri@gmail.com>\n"
 "Language: ar\n"
@@ -338,7 +338,7 @@ msgstr "هل توافق على هذا الترخيص"
 
 #: Controller/DownloadsController.php:170
 msgid "and the limitations imposed by the Fan Art marking"
-msgstr "و القيود التي تفرضها إشارة عمل فني"
+msgstr "و القيود التي تفرضها إشارة عمل مُعجَب"
 
 #: Controller/DownloadsController.php:176
 msgid "Cancel download"
@@ -1529,7 +1529,7 @@ msgstr "ترخيص البلند"
 
 #: View/Blends/add.ctp:84 View/Blends/edit.ctp:29 View/Blends/view.ctp:90
 msgid "Fan Art"
-msgstr "عمل فني"
+msgstr "عمل مُعجَب"
 
 #: View/Blends/add.ctp:88 View/Blends/edit.ctp:32
 msgid "No"
@@ -2078,7 +2078,7 @@ msgstr "شهادة"
 
 #: View/Blends/view.ctp:73
 msgid "This blend is marked as fan art"
-msgstr "هذا البلند حصل على ميزة عمل فني"
+msgstr "هذا البلند حصل على ميزة عمل مُعجَب"
 
 #: View/Blends/view.ctp:82
 msgid "Download"
@@ -3436,11 +3436,11 @@ msgstr "رد"
 
 #: View/Helper/CommentListHelper.php:133 View/Questions/view.ctp:18
 msgid "Vote up"
-msgstr ""
+msgstr "تقييم إيجابي"
 
 #: View/Helper/CommentListHelper.php:139 View/Questions/view.ctp:24
 msgid "Vote down"
-msgstr ""
+msgstr "تقييم سلبي"
 
 #: View/Helper/DashboardHelper.php:67
 msgid "mentioned you on"
@@ -3604,7 +3604,7 @@ msgstr "تغيير معايير البحث الخاصة بك !"
 
 #: View/Layouts/debugging.ctp:111 View/Layouts/frontend.ctp:119
 msgid "No Fan Art"
-msgstr "ليس عملا فنيا"
+msgstr "ليس عمل مُعجَب"
 
 #: View/Layouts/debugging.ctp:134 View/Layouts/frontend.ctp:142
 msgid "Documentation"
