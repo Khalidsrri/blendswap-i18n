@@ -5,15 +5,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-03-27 11:09+0200\n"
-"Last-Translator: Muhammad Khaled <khalidsrri@gmail.com>\n"
+"PO-Revision-Date: 2015-02-03 12:59+0200\n"
+"Last-Translator: khalidsrri <khalidsrri@gmail.com>\n"
 "Language-Team: Blend Swap Translators <khalidsrri@gmail.com>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Bookmarks: 259,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
@@ -3158,7 +3158,7 @@ msgstr "مستخدمون"
 
 #: View/Elements/menus/topMenu.ctp:240;242
 msgid "Users Showcase"
-msgstr "عروض المستخدمين"
+msgstr "عرض المستخدمين"
 
 #: View/Elements/menus/topMenu.ctp:245;247
 msgid "Artists For Hire"
@@ -5015,7 +5015,7 @@ msgstr "أوقف حسابي"
 
 #: View/Users/index.ctp:7
 msgid "Top Uploaders"
-msgstr "أفضل الرافعين"
+msgstr "أفضل المساهمين"
 
 #: View/Users/index.ctp:9
 msgid ""
